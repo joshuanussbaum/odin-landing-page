@@ -14,7 +14,8 @@ a {
 }
 
 button,
-img {
+img,
+.call-to-action {
     border-radius: 25px;
 }
 
@@ -140,4 +141,31 @@ button {
     align-self: flex-end;
     font-size: 24px;
     font-weight: bold;
+}
+
+.call-to-action {
+    display: flex;
+    align-items: center;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    margin: 5% 10%;
+    color: #E5E7EB;
+    text-align: center;
+}
+
+.cta-title {
+    font-size: 36px;
+    font-weight: bold;
+    flex: auto;
+    padding: 1%;
+}
+
+.cta-button {
+    border: #F9FAF8;
+    border-style: solid;
+    margin-right: 5%;
 }
