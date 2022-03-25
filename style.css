@@ -45,7 +45,8 @@ a,
     word-wrap: break-word;
 }
 
-.hero {
+.hero,
+.footer {
     background-color: #1F2937;
 }
 
@@ -168,4 +169,14 @@ button {
     border: #F9FAF8;
     border-style: solid;
     margin-right: 5%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 2%;
 }
