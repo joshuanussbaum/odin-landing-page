@@ -13,12 +13,22 @@ a {
     
 }
 
-button {
+button,
+img {
     border-radius: 25px;
+}
+
+button {
     padding: 0.5rem 1rem;
     margin: 1rem 0;
     font-size: large;
     border: none;
+}
+
+img {
+    border: 0.25rem;
+    border-color: #3882F6;
+    border-style: solid;
 }
 
 button,
@@ -66,12 +76,15 @@ button {
 }
 
 .hero-image {
-    border: 0.25rem;
-    border-color: #E5E7EB;
-    border-style: solid;
     margin-bottom: 2rem;
 }
 
+.body,
+.image-with-subtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .header {
     display: flex;
@@ -85,4 +98,23 @@ button {
     justify-content: space-between;
     gap: 1rem;
     margin-left: auto;
+}
+
+
+
+.body-header {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    margin: 5%;
+}
+
+.body-content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+
+.image-with-subtext {
+    margin: 1%;
 }
