@@ -17,6 +17,8 @@ button {
     border-radius: 25px;
     padding: 0.5rem 1rem;
     margin: 1rem 0;
+    font-size: large;
+    border: none;
 }
 
 button,
@@ -28,6 +30,8 @@ a,
 .hero-sub {
     font-size: 18px;
     color: #E5E7EB;
+    width: 650px;
+    word-wrap: break-word;
 }
 
 .hero {
@@ -35,7 +39,8 @@ a,
 }
 
 .logo,
-.hero-main {
+.hero-main,
+button {
     color: #F9FAF8;
 }
 
@@ -59,6 +64,14 @@ a,
 .hero-text {
    margin: auto;
 }
+
+.hero-image {
+    border: 0.25rem;
+    border-color: #E5E7EB;
+    border-style: solid;
+    margin-bottom: 2rem;
+}
+
 
 .header {
     display: flex;
